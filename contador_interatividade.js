@@ -1,7 +1,7 @@
 // Recupera o valor salvo no localStorage ou define como 0 se não existir
 let contador = localStorage.getItem("contador") ? parseInt(localStorage.getItem("contador")) : 0;
 
-var diasrest = 188;
+var diasrest = 181;
 var semanasrest = 31;
 
 // Atualiza o contador na página
