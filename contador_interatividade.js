@@ -38,7 +38,7 @@ document.getElementById("reset").addEventListener("click", () => {
     localStorage.setItem("contador", contador); // Salva no localStorage
 
     document.getElementById("contador").innerText = contador;
-    document.getElementById("DiasRestantes").innerText = 181;
+    document.getElementById("DiasRestantes").innerText = 188;
     document.getElementById("SemanasRestantes").innerText = 31;
     //atualizarContadores();
 });
