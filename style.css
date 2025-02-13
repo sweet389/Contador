@@ -107,3 +107,64 @@ footer{
     border-radius: 12px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    header > h1 {
+        font-size: 50px; /* Ajuste no tamanho da fonte */
+    }
+
+    .botoes {
+        width: 120px;
+        height: 120px;
+        font-size: 80px;
+    }
+
+    #dias {
+        width: 80%; /* Ajuste para telas menores */
+        max-width: 400px;
+        height: 180px;
+    }
+
+    footer {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .listadosValor > ul > li {
+        font-size: 22px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Responsividade para dispositivos móveis muito pequenos */
+@media screen and (max-width: 480px) {
+    header > h1 {
+        font-size: 35px; /* Reduzido para tela bem pequena */
+    }
+
+    .botoes {
+        width: 100px;
+        height: 100px;
+        font-size: 70px;
+    }
+
+    #dias {
+        width: 90%;
+        max-width: 350px;
+        height: 160px;
+    }
+
+    footer {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .listadosValor > ul > li {
+        font-size: 18px;
+    }
+}
